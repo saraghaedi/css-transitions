@@ -58,7 +58,7 @@ body {
   opacity: 0;
 }
 
-.searchbar:focus-within .dropdown {
+.searchbar.is-open .dropdown {
   transform: perspective(400px) rotateX(0);
   opacity: 1;
 }
