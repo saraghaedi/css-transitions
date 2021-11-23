@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FullscreenMenu from "./components/FullscreenMenu";
 import cx from "classnames";
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
 
   return (
     <div>
+      <FullscreenMenu />
       <div
         className={cx("searchbar", {
           "is-open": open,

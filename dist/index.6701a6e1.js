@@ -22729,6 +22729,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxRuntime = require("react/jsx-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _fullscreenMenu = require("./components/FullscreenMenu");
+var _fullscreenMenuDefault = parcelHelpers.interopDefault(_fullscreenMenu);
 var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _s = $RefreshSig$();
@@ -22738,17 +22740,24 @@ function App() {
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         __source: {
             fileName: "src/App.jsx",
-            lineNumber: 8
+            lineNumber: 9
         },
         __self: this,
         children: [
+            /*#__PURE__*/ _jsxRuntime.jsx(_fullscreenMenuDefault.default, {
+                __source: {
+                    fileName: "src/App.jsx",
+                    lineNumber: 10
+                },
+                __self: this
+            }),
             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                 className: _classnamesDefault.default("searchbar", {
                     "is-open": open
                 }),
                 __source: {
                     fileName: "src/App.jsx",
-                    lineNumber: 9
+                    lineNumber: 11
                 },
                 __self: this,
                 children: [
@@ -22760,7 +22769,7 @@ function App() {
                         ,
                         __source: {
                             fileName: "src/App.jsx",
-                            lineNumber: 14
+                            lineNumber: 16
                         },
                         __self: this
                     }),
@@ -22768,34 +22777,34 @@ function App() {
                         className: "dropdown_positioner",
                         __source: {
                             fileName: "src/App.jsx",
-                            lineNumber: 19
+                            lineNumber: 21
                         },
                         __self: this,
                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
                             className: "dropdown",
                             __source: {
                                 fileName: "src/App.jsx",
-                                lineNumber: 20
+                                lineNumber: 22
                             },
                             __self: this,
                             children: /*#__PURE__*/ _jsxRuntime.jsxs("ul", {
                                 __source: {
                                     fileName: "src/App.jsx",
-                                    lineNumber: 21
+                                    lineNumber: 23
                                 },
                                 __self: this,
                                 children: [
                                     /*#__PURE__*/ _jsxRuntime.jsxs("li", {
                                         __source: {
                                             fileName: "src/App.jsx",
-                                            lineNumber: 22
+                                            lineNumber: 24
                                         },
                                         __self: this,
                                         children: [
                                             /*#__PURE__*/ _jsxRuntime.jsx("strong", {
                                                 __source: {
                                                     fileName: "src/App.jsx",
-                                                    lineNumber: 23
+                                                    lineNumber: 25
                                                 },
                                                 __self: this,
                                                 children: "re"
@@ -22806,14 +22815,14 @@ function App() {
                                     /*#__PURE__*/ _jsxRuntime.jsxs("li", {
                                         __source: {
                                             fileName: "src/App.jsx",
-                                            lineNumber: 25
+                                            lineNumber: 27
                                         },
                                         __self: this,
                                         children: [
                                             /*#__PURE__*/ _jsxRuntime.jsx("strong", {
                                                 __source: {
                                                     fileName: "src/App.jsx",
-                                                    lineNumber: 26
+                                                    lineNumber: 28
                                                 },
                                                 __self: this,
                                                 children: "Re"
@@ -22824,7 +22833,7 @@ function App() {
                                     /*#__PURE__*/ _jsxRuntime.jsxs("li", {
                                         __source: {
                                             fileName: "src/App.jsx",
-                                            lineNumber: 28
+                                            lineNumber: 30
                                         },
                                         __self: this,
                                         children: [
@@ -22832,7 +22841,7 @@ function App() {
                                             /*#__PURE__*/ _jsxRuntime.jsx("strong", {
                                                 __source: {
                                                     fileName: "src/App.jsx",
-                                                    lineNumber: 29
+                                                    lineNumber: 31
                                                 },
                                                 __self: this,
                                                 children: "re"
@@ -22849,7 +22858,7 @@ function App() {
             /*#__PURE__*/ _jsxRuntime.jsx("p", {
                 __source: {
                     fileName: "src/App.jsx",
-                    lineNumber: 35
+                    lineNumber: 37
                 },
                 __self: this,
                 children: "Use the searchbar above"
@@ -22868,7 +22877,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","classnames":"bOXOh"}],"JacNc":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","classnames":"bOXOh","./components/FullscreenMenu":"iqA9r"}],"JacNc":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -23054,6 +23063,151 @@ function registerExportsForReactRefresh(module) {
     else window.classNames = classNames;
 })();
 
-},{}]},["2rAXy","6a0zu","dLPEP"], "dLPEP", "parcelRequire28f3")
+},{}],"iqA9r":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$801b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$801b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxRuntime = require("react/jsx-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _fullscreenMenuCss = require("./FullscreenMenu.css");
+var _s = $RefreshSig$();
+function FullscreenMenu() {
+    _s();
+    const [open, setOpen] = _react.useState(false);
+    return(/*#__PURE__*/ _jsxRuntime.jsxs(_jsxRuntime.Fragment, {
+        children: [
+            open && /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                className: "FullscreenMenu",
+                __source: {
+                    fileName: "src/components/FullscreenMenu.jsx",
+                    lineNumber: 11
+                },
+                __self: this,
+                children: /*#__PURE__*/ _jsxRuntime.jsx("ul", {
+                    __source: {
+                        fileName: "src/components/FullscreenMenu.jsx",
+                        lineNumber: 12
+                    },
+                    __self: this,
+                    children: [
+                        "Home",
+                        "About us",
+                        "Portfolio",
+                        "Contact"
+                    ].map((text, i)=>{
+                        return(/*#__PURE__*/ _jsxRuntime.jsx("li", {
+                            style: {
+                                animationDelay: `${100 * i}ms`
+                            },
+                            __source: {
+                                fileName: "src/components/FullscreenMenu.jsx",
+                                lineNumber: 15
+                            },
+                            __self: this,
+                            children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                href: "#",
+                                onClick: (e)=>{
+                                    e.preventDefault();
+                                    setOpen(false);
+                                },
+                                __source: {
+                                    fileName: "src/components/FullscreenMenu.jsx",
+                                    lineNumber: 16
+                                },
+                                __self: this,
+                                children: text
+                            })
+                        }, i));
+                    })
+                })
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx("button", {
+                className: "FullscreenMenuToggler",
+                style: {
+                    color: open ? "white" : "black"
+                },
+                onClick: ()=>setOpen(!open)
+                ,
+                __source: {
+                    fileName: "src/components/FullscreenMenu.jsx",
+                    lineNumber: 31
+                },
+                __self: this,
+                children: /*#__PURE__*/ _jsxRuntime.jsx("svg", {
+                    width: "2rem",
+                    height: "2rem",
+                    viewBox: "0 0 24 24",
+                    __source: {
+                        fileName: "src/components/FullscreenMenu.jsx",
+                        lineNumber: 36
+                    },
+                    __self: this,
+                    children: /*#__PURE__*/ _jsxRuntime.jsxs("g", {
+                        stroke: "currentColor",
+                        strokeWidth: 2,
+                        __source: {
+                            fileName: "src/components/FullscreenMenu.jsx",
+                            lineNumber: 37
+                        },
+                        __self: this,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsx("line", {
+                                x1: "0",
+                                y1: "4",
+                                x2: "24",
+                                y2: "4",
+                                __source: {
+                                    fileName: "src/components/FullscreenMenu.jsx",
+                                    lineNumber: 38
+                                },
+                                __self: this
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("line", {
+                                x1: "0",
+                                y1: "12",
+                                x2: "24",
+                                y2: "12",
+                                __source: {
+                                    fileName: "src/components/FullscreenMenu.jsx",
+                                    lineNumber: 39
+                                },
+                                __self: this
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("line", {
+                                x1: "0",
+                                y1: "20",
+                                x2: "24",
+                                y2: "20",
+                                __source: {
+                                    fileName: "src/components/FullscreenMenu.jsx",
+                                    lineNumber: 40
+                                },
+                                __self: this
+                            })
+                        ]
+                    })
+                })
+            })
+        ]
+    }));
+}
+exports.default = FullscreenMenu;
+_s(FullscreenMenu, "xG1TONbKtDWtdOTrXaTAsNhPg/Q=");
+_c = FullscreenMenu;
+var _c;
+$RefreshReg$(_c, "FullscreenMenu");
+
+  $parcel$ReactRefreshHelpers$801b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-runtime":"8xIwr","react":"6TuXu","./FullscreenMenu.css":"eV8Yo","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J"}],"eV8Yo":[function() {},{}]},["2rAXy","6a0zu","dLPEP"], "dLPEP", "parcelRequire28f3")
 
 //# sourceMappingURL=index.6701a6e1.js.map
